@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="wordcount" />
+        <module name="mulThreads" />
+        <module name="spark_core" />
+        <module name="zuo_tixi" />
+        <module name="kafkaBySprintBoot" />
+        <module name="flume-interceptor" />
+        <module name="produceConsume" />
+        <module name="mySync" />
+        <module name="rpc-client" />
+        <module name="rpc-server" />
+        <module name="mapReduce" />
+        <module name="hdfsClient" />
+        <module name="yarn" />
+        <module name="Alg" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="Alg" target="8" />
+      <module name="flume-interceptor" target="1.8" />
+      <module name="hadoopRPC" target="1.8" />
+      <module name="hdfsClient" target="8" />
+      <module name="javaAcm" target="8" />
+      <module name="javaEcology" target="8" />
+      <module name="kafkaBySprintBoot" target="8" />
+      <module name="mapReduce" target="1.8" />
+      <module name="MapReduceDemo" target="1.8" />
+      <module name="minibase" target="1.8" />
+      <module name="mulThreads" target="8" />
+      <module name="mySync" target="8" />
+      <module name="produceConsume" target="8" />
+      <module name="rpc-client" target="1.8" />
+      <module name="rpc-server" target="1.8" />
+      <module name="spark_core" target="8" />
+      <module name="spark_scala" target="8" />
+      <module name="wordcount" target="8" />
+      <module name="yarn" target="8" />
+      <module name="zuo_tixi" target="8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="kafkaBySprintBoot" options="-parameters" />
+    </option>
+  </component>
+</project>
